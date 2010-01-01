@@ -1,0 +1,30 @@
+No niin t‰ss‰ se olis kaikessa yksinkertaisuudessaan.
+
+Asentaminen:
+
+	  -vaihtaa tietokanta, salasana ja k‰ytt‰j‰ tunnus dblib.inc tiedostossa olevaan
+	  connectToDB()- funktioon.
+	  
+	  - Luoda uusi tietokanta ja sille k‰ytt‰j‰ (voi tietysti k‰ytt‰‰ vanhaakin)
+	  
+	  - Lis‰t‰ luotuun kantaan taulut k‰ytten DATABASE_CREATE.sql- tiedostoa
+
+	  - Lis‰t‰ luotuun kantaan uusi k‰ytt‰j‰ taluun users (salasana t‰ytyy koodata md5 k‰ytt‰en)
+
+	  - Vaihtaa oletus k‰ytt‰j‰ userlib.inc- tiedostoon. Siis se k‰ytt‰j‰ joka lis‰ttiin users- tauluun.
+	  
+Noiden toimenpiteiden j‰lkeen ohjelma toimii. =) (jos hyvin k‰y)
+
+Voit vapaasti lis‰t‰ ja muokata koodia jos haluat muiden kaveriesi k‰ytt‰v‰n
+ohjelmaa niin tee heille mieluummin oma tunnus kuin annat heille koodin.
+
+Ominaisuuksia:
+	      - Monen k‰ytt‰j‰n lukuj‰rjestyksen hallinta.
+	      -	Jokaisella k‰ytt‰j‰ll‰ oma erillinen n‰kym‰ omiin tietoihinsa.
+	      - K‰ytt‰jill‰ mahdollista pit‰‰ kirjaa suoritetuista kursseista.
+	      - Lukuj‰rjestyksen printtaaminen
+	     
+	     
+-Jukka Kaartinen
+jukka.kaartinen@tut.fi
+
